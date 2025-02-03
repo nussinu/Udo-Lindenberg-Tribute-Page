@@ -1,0 +1,53 @@
+body {
+  background: #EBDECF;
+  font-family: Helvetica;
+}
+
+#header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: -5px
+}
+
+h3 {
+  margin-top: 30px;
+  border-top: 1.5px solid black;
+  border-top-padding: 2px
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 14px
+}
+
+#tribute-info {
+  width: 39%;
+  display: block;
+  margin: 0 auto;
+}
+
+#tribute-link-section {
+  width: 39%;
+  display: block;
+  margin: 26px auto;
+}
+
+a:visited, a:link {
+  color: #900707
+
+}
+
+a:hover {
+  color:purple;
+}
