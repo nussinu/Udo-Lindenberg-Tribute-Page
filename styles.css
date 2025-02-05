@@ -9,13 +9,12 @@ body {
 
 h1 {
   font-size: 3rem;
-  margin-bottom: -5px
+  margin-bottom: -5px;
 }
 
 h3 {
   margin-top: 30px;
   border-top: 1.5px solid black;
-  border-top-padding: 2px
 }
 
 img {
@@ -28,7 +27,7 @@ img {
 
 figcaption {
   text-align: center;
-  margin-top: 14px
+  margin-top: 14px;
 }
 
 #tribute-info {
@@ -44,10 +43,15 @@ figcaption {
 }
 
 a:visited, a:link {
-  color: #900707
-
+  color: #900707;
 }
 
 a:hover {
   color:purple;
+}
+
+@media (max-width: 1400px) {
+  #tribute-info, #tribute-link-section {
+    width: 60%;
+  }
 }
