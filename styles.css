@@ -30,6 +30,11 @@ figcaption {
   margin-top: 14px;
 }
 
+.src {
+  font-size: 0.7rem;
+  margin-top: -0.1rem;
+}
+
 #tribute-info {
   width: 39%;
   display: block;
